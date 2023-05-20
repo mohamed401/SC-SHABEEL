@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SC Shabeel Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1>SC Shabeel Team</h1>
+        <ul>
+          <li><a href="#" onclick="showSection('home')">Home</a></li>
+          <li><a href="#" onclick="showSection('players')">Players</a></li>
+          <li><a href="#" onclick="showSection('matches')">Matches</a></li>
+          <li><a href="#" onclick="showSection('news')">News</a></li>
+          <li><a href="#" onclick="showSection('about')">About</a></li>
+          <li><a href="#" onclick="showSection('donate')">Donate</a></li>
+          <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+         
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h2>Welcome To SC Shabeel</h2>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="logo">
+        <img src="IMG7.jpg" alt="SC Shabeel Team Logo">
+    </div>
+      <p>At SC SHABEEL, we are a group of young players who are passionate about the beautiful game of soccer. Our main goal is to create an environment where young individuals can truly enjoy playing soccer and develop their skills to the fullest.
+
+        Mission Statement
+        
+        Our mission at SC SHABEEL is to inspire and empower youth to become committed and skilled soccer players. We believe that through the sport of soccer, young individuals can learn valuable life lessons such as teamwork, discipline, and perseverance. We aim to provide a platform where players can thrive, both on and off the field.
+        
+        Our Vision
+        
+        At SC SHABEEL, we envision a future where every young player has access to quality training and opportunities to excel in the sport they love. We strive to create a positive and nurturing environment that fosters personal growth and athletic development.
+        
+        Values
+        
+        Passion: We are driven by our love for the game. We believe that passion is the fuel that ignites success, and we encourage our players to approach every practice, game, and opportunity with enthusiasm.
+        
+        Teamwork: We value the power of collaboration and teamwork. We emphasize the importance of working together towards a common goal, fostering a sense of unity and camaraderie among our players.
+        
+        Commitment: We understand that dedication and commitment are vital for personal and team success. We encourage our players to show up consistently, give their best effort, and continuously improve their skills.
+        
+        Sportsmanship: We promote a culture of respect, fair play, and good sportsmanship. We believe that integrity is as important as skill, and we encourage our players to compete with honor and respect for the game and their opponents.
+        
+        Personal Growth: We believe that soccer is not only about winning on the field but also about personal growth off the field. We strive to provide a supportive environment that helps our players develop important life skills and values that will benefit them beyond soccer.
+        
+        Join us at SC SHABEEL and embark on a journey of soccer excellence, camaraderie, and personal growth. Together, we can create a positive impact on the lives of young players and nurture their love for the beautiful game of soccer </p>
+    </div>
+  </section>
+
+  <section class="players" id="players">
+    <div class="container">
+        <div class="player-positions">
+      <h3>Defenders</h3>
+      <ul>
+        <li>Kevin GK</li>
+        <li>Abass DF</li>
+        <li>Ibrahimu DF</li>
+        <li>Omari DF</li>
+
+    </div>
+    <div>
+    <div class="player-positions">
+         <h3>Midfielder</h3>
+         <ul>
+         <li>Lil Mo Mid</li>
+         <li>Muya Mid</li>
+         <li>Work Mid</li>
+         <ul></ul>
+        </ul>
+    </div>
+    <div class="player-positions">
+    <h3>Fowrward</h3>
+      <ul>
+        <li>Mohamed Zidan FW</li>
+        <li>Romeo FW</li>
+        <li>Afgooye FW</li>
+        <ul>Sham FW</ul>
+        <ul>Ruk FW</ul>
+      </ul>
+    </div>
+    </div>
+    <div class="coach">
+    <h3>Meet our Coach</h3>
+      <ul>
+       <ul>Speedy dadir</ul>
+    </div>
+    </div>
+    
+  </section>
+
+  <section class="matches" id="matches">
+    <div class="container">
+      <h2>Matches</h2>
+      <ul>
+        <li>Sc Shabeel Vs Juba</li>
+        <li>Holac Vs Sc Shabeel</li>
+        <li>Sc shabeel VS AL Noor</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="news" id="news">
+    <div class="container">
+      <h2>stay tuned to our upcoming news</h2>
+    </div>
+  </section>
+
+  <section class="donate" id="donate">
+    <div class="container">
+      <h2>Please Donate </h2>
+      <ul>
+        <li>Zelle</li>
+        <li>CashApp</li>
+        Thank you for you donation
+      </ul>
+    </div>
+  </section>
+
+  
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <ul>
+      <li>Phone 123-258-4879</li>
+      <li>Email schabeel@org</li>
+      <p>Feel free to reach out to us for any Questions about SC SHABEEL </p>
+    </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 SC Shabeel Team. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function showSection(sectionId) {
+      // Hide all sections
+      const sections = document.getElementsByTagName('section');
+      for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = 'none';
+      }
+
+      // Show the selected section
+      const section = document.getElementById(sectionId);
+      section.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
